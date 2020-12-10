@@ -1,5 +1,6 @@
 let elResult = document.querySelector(".result");
-let money = Number(prompt("Alisher qancha jigar bor?"));
+let userName = prompt("Isming nima og'ayni");
+let money = Number(prompt(`${userName} qancha jigar bor?`));
 let dollorAmunt = 9433.34;
 let euroAmunt = 10354.03;
 let bilet = 500 * dollorAmunt;
